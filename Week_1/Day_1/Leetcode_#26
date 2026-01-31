@@ -1,0 +1,14 @@
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        
+        write_ptr = 0
+        read_ptr = 0
+
+        for i in range(len(nums)-1):
+            read_ptr +=1
+
+            if nums[write_ptr] != nums[read_ptr]:
+                write_ptr +=1
+                nums[write_ptr] = nums[read_ptr]
+
+        return write_ptr+1
