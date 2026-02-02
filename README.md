@@ -32,7 +32,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 ### **Day 3: Hash Maps & Text Processing**
 *   **Theory:** Hashing, Collisions, and Set Theory.
 *   **Lab:** `text_analyzer.py` - Implementing a "Bag of Words" model from scratch for NLP preprocessing.
-*   **DSA:** LeetCode #349, #387.
+*   **DSA:** LeetCode #242, #349, #387.
 
 ---
 
