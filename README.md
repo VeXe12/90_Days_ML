@@ -15,6 +15,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **02** | Feb 01 | **Time Complexity (Big O)** | Benchmarked Loop ($O(n)$) vs. Math Formula ($O(1)$) speed. Mastered Big O notation to predict scalability issues in large datasets. | [View Code](./Day-02) |
 | **03** | Feb 02 | **Hash Maps & Sets (NLP)** | Implemented **Bag-of-Words** frequency counting. Compared manual loops vs. `collections.Counter` ($O(n)$). Solved Intersection/Frequency problems using Hash Tables. | [View Code](./Day-03) |
 | **04** | Feb 03 | **Sliding Window & Strings** | Implemented **N-Gram Generator** for NLP. Benchmarked naive string concatenation ($O(n^2)$) vs. Sliding Window pattern ($O(n)$). Solved sequence processing problems. | [View Code](./Day-04) |
+| **05** | Feb 04 | **Recursion & Divide/Conquer** | Visualized the **Call Stack** and Stack Overflow limits. Benchmarked Linear Search ($O(n)$) vs. Binary Search ($O(\log n)$) on 10M items. | [View Code](./Day-05) |
 
 ---
 
@@ -40,10 +41,15 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `ngrams.py` - Generating Bi-grams and Tri-grams using a sliding window to prepare text for language models.
 *   **DSA:** Sequence & Two Pointers (LeetCode #125 Valid Palindrome, #3 Longest Substring Without Repeating Characters).
 
+### **Day 5: Recursion & The Call Stack**
+*   **Theory:** The "Divide & Conquer" paradigm. Understanding Stack Frames, memory overhead of recursion, and why $O(\log n)$ is critical for massive datasets.
+*   **Lab:** `recursion_lab.py` - Visualizing recursion depth limits and benchmarking Binary Search speed.
+*   **DSA:** Binary Search & Recursion (LeetCode #704 Binary Search, #35 Search Insert Position, #50 Pow(x, n)).
+
 ---
 
 ## 🛠️ Tech Stack
-*   **Language:** Python
+*   **Language:** Python3
 *   **Tools:** VS Code, Git, LeetCode
 *   **Libraries:** `sys`, `time`, `collections` (Standard Library focus for Week 1)
 
