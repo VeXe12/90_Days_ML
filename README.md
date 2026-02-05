@@ -16,6 +16,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **03** | Feb 02 | **Hash Maps & Sets (NLP)** | Implemented **Bag-of-Words** frequency counting. Compared manual loops vs. `collections.Counter` ($O(n)$). Solved Intersection/Frequency problems using Hash Tables. | [View Code](./Day-03) |
 | **04** | Feb 03 | **Sliding Window & Strings** | Implemented **N-Gram Generator** for NLP. Benchmarked naive string concatenation ($O(n^2)$) vs. Sliding Window pattern ($O(n)$). Solved sequence processing problems. | [View Code](./Day-04) |
 | **05** | Feb 04 | **Recursion & Divide/Conquer** | Visualized the **Call Stack** and Stack Overflow limits. Benchmarked Linear Search ($O(n)$) vs. Binary Search ($O(\log n)$) on 10M items. | [View Code](./Day-05) |
+| **06** | Feb 05 | **Sorting & Timsort** | Implemented **Merge Sort** ($O(N \log N)$). Benchmarked against Bubble Sort ($O(N^2)$) and Python's **Timsort**. Solved Partitioning & Merging problems. | [View Code](./Day-06) |
 
 ---
 
@@ -46,12 +47,20 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `recursion_lab.py` - Visualizing recursion depth limits and benchmarking Binary Search speed.
 *   **DSA:** Binary Search & Recursion (LeetCode #704 Binary Search, #35 Search Insert Position, #50 Pow(x, n)).
 
+### **Day 6: Sorting Algorithms & Timsort**
+*   **Theory:** Why sorting allows for efficient data cleaning and median finding. The move from Brute Force ($O(N^2)$) to Divide & Conquer ($O(N \log N)$). Understanding **Timsort** (Python's default sort), which is a hybrid of Merge Sort and Insertion Sort optimized for real-world data runs.
+*   **Lab:** `sorting_algo.py` - Implemented Merge Sort from scratch. Benchmarked:
+    *   Bubble Sort: $O(N^2)$ (Seconds).
+    *   Merge Sort: $O(N \log N)$ (Milliseconds).
+    *   Timsort: Adaptive & Optimized (Fastest).
+*   **DSA:** Sorting & Partitioning (LeetCode #88 Merge Sorted Array, #75 Sort Colors, #215 Kth Largest Element).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python3
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections` (Standard Library focus for Week 1)
+*   **Libraries:** `sys`, `time`, `collections`, `random` (Standard Library focus for Week 1)
 
 ---
 
