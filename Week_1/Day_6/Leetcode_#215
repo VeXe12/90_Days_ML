@@ -1,0 +1,9 @@
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        highest = 0
+
+        for i in range(len(nums) - 1, -1, -1):
+            highest += 1
+            if highest == k:
+                return nums[i]
