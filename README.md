@@ -64,7 +64,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 ---
 
 ## 🛠️ Tech Stack
-*   **Language:** Python 3.x
+*   **Language:** Python3
 *   **Tools:** VS Code, Git, LeetCode
 *   **Libraries:** `sys`, `time`, `collections`, `random`, `heapq` (Standard Library focus for Week 1)
 
