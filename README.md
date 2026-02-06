@@ -17,6 +17,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **04** | Feb 03 | **Sliding Window & Strings** | Implemented **N-Gram Generator** for NLP. Benchmarked naive string concatenation ($O(n^2)$) vs. Sliding Window pattern ($O(n)$). Solved sequence processing problems. | [View Code](./Day-04) |
 | **05** | Feb 04 | **Recursion & Divide/Conquer** | Visualized the **Call Stack** and Stack Overflow limits. Benchmarked Linear Search ($O(n)$) vs. Binary Search ($O(\log n)$) on 10M items. | [View Code](./Day-05) |
 | **06** | Feb 05 | **Sorting & Timsort** | Implemented **Merge Sort** ($O(N \log N)$). Benchmarked against Bubble Sort ($O(N^2)$) and Python's **Timsort**. Solved Partitioning & Merging problems. | [View Code](./Day-06) |
+| **07** | Feb 06 | **Heaps & Priority Queues** | **Current Focus.** Implementing K-Nearest Neighbors (KNN) logic using Min/Max Heaps. Solving "Top K" problems efficiently ($O(N \log K)$). | [View Code](./Day-07) |
 
 ---
 
@@ -55,12 +56,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
     *   Timsort: Adaptive & Optimized (Fastest).
 *   **DSA:** Sorting & Partitioning (LeetCode #88 Merge Sorted Array, #75 Sort Colors, #215 Kth Largest Element).
 
+### **Day 7: Heaps & Priority Queues (The "Top K" Problem)**
+*   **Theory:** Breaking the bottleneck of sorting entire datasets. Using **Heaps** (Priority Queues) to find the "Top K" elements in $O(N \log K)$ time instead of $O(N \log N)$.
+*   **Lab:** `knn_simulation.py` - Simulating a K-Nearest Neighbors (KNN) lookup. Calculating Euclidean distance and efficiently retrieving the nearest neighbors using a Max-Heap.
+*   **DSA:** Heap Applications (LeetCode #215 Kth Largest Element, #973 K Closest Points to Origin, #1046 Last Stone Weight).
+
 ---
 
 ## 🛠️ Tech Stack
-*   **Language:** Python3
+*   **Language:** Python 3.x
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `random` (Standard Library focus for Week 1)
+*   **Libraries:** `sys`, `time`, `collections`, `random`, `heapq` (Standard Library focus for Week 1)
 
 ---
 
