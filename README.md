@@ -17,7 +17,8 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **04** | Feb 03 | **Sliding Window & Strings** | Implemented **N-Gram Generator** for NLP. Benchmarked naive string concatenation ($O(n^2)$) vs. Sliding Window pattern ($O(n)$). Solved sequence processing problems. | [View Code](./Day-04) |
 | **05** | Feb 04 | **Recursion & Divide/Conquer** | Visualized the **Call Stack** and Stack Overflow limits. Benchmarked Linear Search ($O(n)$) vs. Binary Search ($O(\log n)$) on 10M items. | [View Code](./Day-05) |
 | **06** | Feb 05 | **Sorting & Timsort** | Implemented **Merge Sort** ($O(N \log N)$). Benchmarked against Bubble Sort ($O(N^2)$) and Python's **Timsort**. Solved Partitioning & Merging problems. | [View Code](./Day-06) |
-| **07** | Feb 06 | **Heaps & Priority Queues** | **Current Focus.** Implementing K-Nearest Neighbors (KNN) logic using Min/Max Heaps. Solving "Top K" problems efficiently ($O(N \log K)$). | [View Code](./Day-07) |
+| **07** | Feb 06 | **Heaps & Priority Queues** | Implemented **K-Nearest Neighbors (KNN)** search using Heaps. Optimized "Top K" retrieval from $O(N \log N)$ to $O(N \log K)$. | [View Code](./Day-07) |
+| **08** | Feb 07 | **Linked Lists & Pointers** | Built a **Singly Linked List** from scratch. Mastered **Fast & Slow Pointers** for cycle detection and finding midpoints in one pass. | [View Code](./Day-08) |
 
 ---
 
@@ -49,24 +50,26 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **DSA:** Binary Search & Recursion (LeetCode #704 Binary Search, #35 Search Insert Position, #50 Pow(x, n)).
 
 ### **Day 6: Sorting Algorithms & Timsort**
-*   **Theory:** Why sorting allows for efficient data cleaning and median finding. The move from Brute Force ($O(N^2)$) to Divide & Conquer ($O(N \log N)$). Understanding **Timsort** (Python's default sort), which is a hybrid of Merge Sort and Insertion Sort optimized for real-world data runs.
-*   **Lab:** `sorting_algo.py` - Implemented Merge Sort from scratch. Benchmarked:
-    *   Bubble Sort: $O(N^2)$ (Seconds).
-    *   Merge Sort: $O(N \log N)$ (Milliseconds).
-    *   Timsort: Adaptive & Optimized (Fastest).
+*   **Theory:** Why sorting allows for efficient data cleaning and median finding. The move from Brute Force ($O(N^2)$) to Divide & Conquer ($O(N \log N)$). Understanding **Timsort** (Python's default sort).
+*   **Lab:** `sorting_algo.py` - Implemented Merge Sort from scratch. Benchmarked Bubble Sort ($O(N^2)$) vs. Merge Sort ($O(N \log N)$) vs. Timsort.
 *   **DSA:** Sorting & Partitioning (LeetCode #88 Merge Sorted Array, #75 Sort Colors, #215 Kth Largest Element).
 
-### **Day 7: Heaps & Priority Queues (The "Top K" Problem)**
-*   **Theory:** Breaking the bottleneck of sorting entire datasets. Using **Heaps** (Priority Queues) to find the "Top K" elements in $O(N \log K)$ time instead of $O(N \log N)$.
-*   **Lab:** `knn_simulation.py` - Simulating a K-Nearest Neighbors (KNN) lookup. Calculating Euclidean distance and efficiently retrieving the nearest neighbors using a Max-Heap.
-*   **DSA:** Heap Applications (LeetCode #215 Kth Largest Element, #973 K Closest Points to Origin, #1046 Last Stone Weight).
+### **Day 7: Heaps & Priority Queues**
+*   **Theory:** Breaking the bottleneck of sorting entire datasets. Using **Heaps** to find the "Top K" elements in $O(N \log K)$ time.
+*   **Lab:** `knn_simulation.py` - Simulating K-Nearest Neighbors (KNN) lookup. Calculating Euclidean distance and efficiently retrieving neighbors using a Max-Heap.
+*   **DSA:** Heap Applications (LeetCode #973 K Closest Points to Origin, #1046 Last Stone Weight).
+
+### **Day 8: Linked Lists & Pointers**
+*   **Theory:** Non-contiguous memory. How **Nodes** and **Pointers** form the basis of Computational Graphs (DAGs) in Deep Learning frameworks.
+*   **Lab:** `linked_list.py` - Implementing a Linked List class. Using the **Fast & Slow Pointer** (Tortoise & Hare) technique to find the middle of a list in a single pass.
+*   **DSA:** Pointer Manipulation (LeetCode #141 Linked List Cycle, #876 Middle of Linked List, #206 Reverse Linked List).
 
 ---
 
 ## 🛠️ Tech Stack
-*   **Language:** Python3
+*   **Language:** Python 3.13
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `random`, `heapq` (Standard Library focus for Week 1)
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math` (Standard Library focus for Week 1)
 
 ---
 
