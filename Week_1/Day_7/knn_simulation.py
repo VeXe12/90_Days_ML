@@ -11,7 +11,7 @@ K = 5
 
 # 2. HELPER: Euclidean Distance
 def euclidean_distance(p1, p2):
-    return math.sqrt((p1 - p2)**2 + (p1[9] - p2[9])**2)
+    return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
 
 # 3. THE ALGORITHM: K-Nearest Neighbors using Heap
 def find_k_nearest_neighbors(data, target, k):
@@ -30,7 +30,7 @@ def find_k_nearest_neighbors(data, target, k):
             # If this point is closer than the furthest point in our heap
             # (Remember: heap is the smallest value, which corresponds to 
             # the largest actual distance because we negated them)
-            if -dist > heap:
+            if -dist > heap[0][0]:
                 heapq.heapreplace(heap, (-dist, point))
     
     # Convert back to positive distances and sort for display
