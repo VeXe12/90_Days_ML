@@ -19,6 +19,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **06** | Feb 05 | **Sorting & Timsort** | Implemented **Merge Sort** ($O(N \log N)$). Benchmarked against Bubble Sort ($O(N^2)$) and Python's **Timsort**. Solved Partitioning & Merging problems. | [View Code](./Day-06) |
 | **07** | Feb 06 | **Heaps & Priority Queues** | Implemented **K-Nearest Neighbors (KNN)** search using Heaps. Optimized "Top K" retrieval from $O(N \log N)$ to $O(N \log K)$. | [View Code](./Day-07) |
 | **08** | Feb 07 | **Linked Lists & Pointers** | Built a **Singly Linked List** from scratch. Mastered **Fast & Slow Pointers** for cycle detection and finding midpoints in one pass. | [View Code](./Day-08) |
+| **09** | Feb 08 | **Stacks, Queues & Buffers** | Simualted a Data Pipeline Buffer. Proved `list.pop(0)` ($O(N)$) is too slow for queues; `collections.deque` ($O(1)$) is required for ML pipelines. | [View Code](./Day-09) |
 
 ---
 
@@ -64,12 +65,19 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `linked_list.py` - Implementing a Linked List class. Using the **Fast & Slow Pointer** (Tortoise & Hare) technique to find the middle of a list in a single pass.
 *   **DSA:** Pointer Manipulation (LeetCode #141 Linked List Cycle, #876 Middle of Linked List, #206 Reverse Linked List).
 
+### **Day 9: Stacks & Queues (Data Buffers)**
+*   **Theory:** LIFO (Stacks) vs FIFO (Queues). Why simple Lists are dangerous to use as Queues in data pipelines ($O(N)$ shift operations).
+*   **Lab:** `queue_buffer.py` - Benchmarked a 100,000 item pipeline.
+    *   **List Queue:** Slow (Seconds) due to shifting elements on `pop(0)`.
+    *   **Deque:** Instant (Milliseconds) due to Doubly Linked List implementation.
+*   **DSA:** Stack/Queue Logic (LeetCode #20 Valid Parentheses, #232 Queue using Stacks, #155 Min Stack).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math` (Standard Library focus for Week 1)
+*   **Libraries:** `sys`, `time`, `collections` (deque, Counter), `heapq`
 
 ---
 
