@@ -1,7 +1,7 @@
 # 90 Days of Machine Learning Engineering 🚀
 
 **Goal:** Master the fundamentals of Machine Learning Engineering, starting from Python internals and Data Structures to Advanced Deep Learning.
-**Status:** In Progress (Started Jan 31, 2025).
+**Status:** In Progress (Started Feb 1, 2025).
 
 This repository documents my daily progress, code labs, and algorithmic challenges. I focus on "First Principles"—understanding *how* things work under the hood (Memory, Time Complexity, Math) before simply importing libraries.
 
@@ -9,18 +9,18 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 
 ## 📅 Progress Log
 
-| Day | Date | Topic | Key Concepts & Labs | Code |
-| :--- | :--- | :--- | :--- | :--- |
-| **01** | Jan 31 | **Memory Management** | Analyzed `sys.getsizeof()` and `id()`. Proved why Python Lists consume more RAM than Tuples. Solved In-Place algorithms ($O(1)$ space). | [View Code](./Day-01) |
-| **02** | Feb 01 | **Time Complexity** | Benchmarked Loop ($O(n)$) vs. Math Formula ($O(1)$). Mastered Big O notation for scalability. | [View Code](./Day-02) |
-| **03** | Feb 02 | **Hash Maps (NLP)** | Implemented **Bag-of-Words** frequency counting. Compared loops vs. `collections.Counter`. | [View Code](./Day-03) |
-| **04** | Feb 03 | **Sliding Window** | Implemented **N-Gram Generator**. Benchmarked string concatenation ($O(n^2)$) vs. Sliding Window ($O(n)$). | [View Code](./Day-04) |
-| **05** | Feb 04 | **Recursion** | Visualized **Call Stack** limits. Benchmarked Binary Search ($O(\log n)$) vs. Linear Search ($O(n)$). | [View Code](./Day-05) |
-| **06** | Feb 05 | **Sorting & Timsort** | Implemented **Merge Sort**. Benchmarked Bubble Sort ($O(n^2)$) vs. Timsort ($O(n \log n)$). | [View Code](./Day-06) |
-| **07** | Feb 06 | **Heaps (Top K)** | Implemented **KNN** search using Heaps. Optimized "Top K" retrieval to $O(N \log K)$. | [View Code](./Day-07) |
-| **08** | Feb 07 | **Linked Lists** | Built a **Singly Linked List**. Used **Fast & Slow Pointers** for cycle detection and finding midpoints. | [View Code](./Day-08) |
-| **09** | Feb 08 | **Stacks & Queues** | Benchmarked `list.pop(0)` vs `deque.popleft()`. Simualted a Data Pipeline Buffer. | [View Code](./Day-09) |
-| **10** | Feb 09 | **Trees & BST** | Implemented a **Binary Search Tree** ($O(\log n)$ search). Built a **Gini Impurity** calculator for Decision Trees. | [View Code](./Day-10) |
+| Day | Topic | Key Concepts & Labs | Code |
+| :--- | :--- | :--- | :--- |
+| **01** | **Memory Management** | Analyzed `sys.getsizeof()` and `id()`. Proved why Python Lists consume more RAM than Tuples. Solved In-Place algorithms ($O(1)$ space). | [View Code](./Day-01) |
+| **02** | **Time Complexity** | Benchmarked Loop ($O(n)$) vs. Math Formula ($O(1)$). Mastered Big O notation for scalability. | [View Code](./Day-02) |
+| **03** | **Hash Maps (NLP)** | Implemented **Bag-of-Words** frequency counting. Compared loops vs. `collections.Counter`. | [View Code](./Day-03) |
+| **04** | **Sliding Window** | Implemented **N-Gram Generator**. Benchmarked string concatenation ($O(n^2)$) vs. Sliding Window ($O(n)$). | [View Code](./Day-04) |
+| **05** | **Recursion** | Visualized **Call Stack** limits. Benchmarked Binary Search ($O(\log n)$) vs. Linear Search ($O(n)$). | [View Code](./Day-05) |
+| **06** | **Sorting & Timsort** | Implemented **Merge Sort**. Benchmarked Bubble Sort ($O(n^2)$) vs. Timsort ($O(n \log n)$). | [View Code](./Day-06) |
+| **07** | **Heaps (Top K)** | Implemented **KNN** search using Heaps. Optimized "Top K" retrieval to $O(N \log K)$. | [View Code](./Day-07) |
+| **08** | **Linked Lists** | Built a **Singly Linked List**. Used **Fast & Slow Pointers** for cycle detection and finding midpoints. | [View Code](./Day-08) |
+| **09** | **Stacks & Queues** | Benchmarked `list.pop(0)` vs `deque.popleft()`. Simualted a Data Pipeline Buffer. | [View Code](./Day-09) |
+| **10** | **Trees & BST** | Implemented a **Binary Search Tree** ($O(\log n)$ search). Built a **Gini Impurity** calculator for Decision Trees. | [View Code](./Day-10) |
 
 ---
 
