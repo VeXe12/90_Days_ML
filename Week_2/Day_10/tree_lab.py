@@ -99,7 +99,7 @@ if __name__ == "__main__":
     # 0 = No (Negative Class), 1 = Yes (Positive Class)
     
     # Scenario A: A messy node (High Impurity)
-    mixed_node = [12] 
+    mixed_node = [12, 14] 
     gini_a = calculate_gini(mixed_node)
     print(f"Node A (Mixed) {mixed_node} Gini: {gini_a:.4f} (High Impurity)")
     
