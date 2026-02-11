@@ -21,6 +21,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **08** | **Linked Lists** | Built a **Singly Linked List**. Used **Fast & Slow Pointers** for cycle detection and finding midpoints. | [View Code](./Day-08) |
 | **09** | **Stacks & Queues** | Benchmarked `list.pop(0)` vs `deque.popleft()`. Simualted a Data Pipeline Buffer. | [View Code](./Day-09) |
 | **10** | **Trees & BST** | Implemented a **Binary Search Tree** ($O(\log n)$ search). Built a **Gini Impurity** calculator for Decision Trees. | [View Code](./Day-10) |
+| **11** | **Graphs & BFS** | Implemented **Adjacency List** graph representation. Used **BFS** (Queue) for shortest path finding in unweighted graphs. | [View Code](./Day-11) |
 
 ---
 
@@ -75,6 +76,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** Moving from Linear to Hierarchical structures. **BFS** (Queue) vs **DFS** (Stack/Recursion). The logic behind Decision Tree splits (**Gini Impurity**).
 *   **Lab:** `tree_lab.py` - Implemented a BST from scratch for $O(\log n)$ search. Coded a Gini Impurity calculator to understand how ML models evaluate "splits."
 *   **DSA:** Tree Traversal (LeetCode #104 Max Depth of Binary Tree, #98 Validate BST, #102 Level Order Traversal).
+
+### **Day 11: Graphs & BFS**
+*   **Theory:** Adjacency Matrices vs. Adjacency Lists. Graph Traversal (BFS/DFS) and "Degrees of Separation."
+*   **Lab:** `graph_basics.py` - Implemented a Graph class using a Dictionary of Sets. Used BFS to find the shortest path between nodes in a social network.
+*   **DSA:** Graph Traversal (LeetCode #997 Find the Town Judge, #200 Number of Islands, #1091 Shortest Path in Binary Matrix).
 
 ---
 
