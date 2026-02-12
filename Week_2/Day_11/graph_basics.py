@@ -66,8 +66,10 @@ if __name__ == "__main__":
     # C -- D -- F
     social_network = Graph()
     edges = [
-        ('A', 'B'), ('A', 'C'),
-        ('B', 'D'), ('B', 'E'),
+        ('A', 'B'),
+        ('A', 'C'),
+        ('B', 'D'),
+        ('B', 'E'),
         ('C', 'D'),
         ('D', 'F'),
         ('E', 'F')

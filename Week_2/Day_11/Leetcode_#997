@@ -1,0 +1,14 @@
+class Solution:
+    def findJudge(self, n: int, trust: List[List[int]]) -> int:
+        indegree = dict.fromkeys(range(1, n + 1), 0)
+        outdegree = dict.fromkeys(range(1, n + 1), 0)
+
+        for ai, bi in trust:
+            indegree[bi] += 1
+            outdegree[ai] += 1
+
+        for key in indegree:
+            if indegree[key] == (n - 1) and outdegree[key] == 0:
+                return key    
+
+        return -1        
