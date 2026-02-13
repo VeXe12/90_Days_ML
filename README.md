@@ -23,6 +23,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **10** | **Trees & BST** | Implemented a **Binary Search Tree** ($O(\log n)$ search). Built a **Gini Impurity** calculator for Decision Trees. | [View Code](./Day-10) |
 | **11** | **Graphs & BFS** | Implemented **Adjacency List** graph representation. Used **BFS** (Queue) for shortest path finding in unweighted graphs. | [View Code](./Day-11) |
 | **12** | **Dynamic Programming** | Benchmarked **Recursion** ($O(2^N)$) vs **Memoization** ($O(N)$). Solved 1D optimization problems. | [View Code](./Day-12) |
+| **13** | **2D DP & Tries** | Built a **Spell Checker** (Levenshtein Distance) and **Autocomplete** engine (Trie). Mastered 2D Grid DP. | [View Code](./Day-13) |
 
 ---
 
@@ -87,6 +88,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** The "Bellman Equation" of ML. Overlapping Subproblems and Optimal Substructure. Top-Down (Memoization) vs Bottom-Up (Tabulation).
 *   **Lab:** `dp_vs_recursion.py` - Benchmarking Fibonacci. Proved caching reduces execution time from seconds ($O(2^N)$) to microseconds ($O(N)$). Implemented "House Robber" logic.
 *   **DSA:** 1D Dynamic Programming (LeetCode #70 Climbing Stairs, #746 Min Cost Climbing Stairs, #198 House Robber).
+
+### **Day 13: 2D Dynamic Programming & Tries**
+*   **Theory:** 2D Grids in DP and String Alignment. **Tries** (Prefix Trees) for fast string lookups ($O(L)$).
+*   **Lab:** `text_intelligence.py` - Built a **Levenshtein Distance** calculator (Spell Checker logic) and a **Trie** for Autocomplete.
+*   **DSA:** String Algorithms (LeetCode #208 Implement Trie, #1143 Longest Common Subsequence, #72 Edit Distance).
 
 ---
 
