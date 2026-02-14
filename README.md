@@ -24,6 +24,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **11** | **Graphs & BFS** | Implemented **Adjacency List** graph representation. Used **BFS** (Queue) for shortest path finding in unweighted graphs. | [View Code](./Day-11) |
 | **12** | **Dynamic Programming** | Benchmarked **Recursion** ($O(2^N)$) vs **Memoization** ($O(N)$). Solved 1D optimization problems. | [View Code](./Day-12) |
 | **13** | **2D DP & Tries** | Built a **Spell Checker** (Levenshtein Distance) and **Autocomplete** engine (Trie). Mastered 2D Grid DP. | [View Code](./Day-13) |
+| **14** | **Greedy Algorithms** | Implemented **Dijkstra's Algorithm** ($O(E \log V)$). Built a **Weighted Graph** routing engine. Solved MST problems. | [View Code](./Day-14) |
 
 ---
 
@@ -93,6 +94,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** 2D Grids in DP and String Alignment. **Tries** (Prefix Trees) for fast string lookups ($O(L)$).
 *   **Lab:** `text_intelligence.py` - Built a **Levenshtein Distance** calculator (Spell Checker logic) and a **Trie** for Autocomplete.
 *   **DSA:** String Algorithms (LeetCode #208 Implement Trie, #1143 Longest Common Subsequence, #72 Edit Distance).
+
+### **Day 14: Greedy Algorithms & Weighted Graphs**
+*   **Theory:** The Greedy Choice Property. Dijkstra's Algorithm (Priority Queue) vs. BFS. Minimum Spanning Trees (Prim's & Kruskal's).
+*   **Lab:** `dijkstra_lab.py` - Built a GPS routing engine using Dijkstra's algorithm to find the shortest path in a weighted traffic network.
+*   **DSA:** Weighted Graphs (LeetCode #743 Network Delay Time, #1584 Min Cost to Connect All Points, #787 Cheapest Flights Within K Stops).
 
 ---
 
