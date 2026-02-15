@@ -24,7 +24,8 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **11** | **Graphs & BFS** | Implemented **Adjacency List** graph representation. Used **BFS** (Queue) for shortest path finding in unweighted graphs. | [View Code](./Day-11) |
 | **12** | **Dynamic Programming** | Benchmarked **Recursion** ($O(2^N)$) vs **Memoization** ($O(N)$). Solved 1D optimization problems. | [View Code](./Day-12) |
 | **13** | **2D DP & Tries** | Built a **Spell Checker** (Levenshtein Distance) and **Autocomplete** engine (Trie). Mastered 2D Grid DP. | [View Code](./Day-13) |
-| **14** | **Greedy Algorithms** | Implemented **Dijkstra's Algorithm** ($O(E \log V)$). Built a **Weighted Graph** routing engine. Solved MST problems. | [View Code](./Day-14) |
+| **14** | **Greedy Algorithms** | Implemented **Dijkstra's Algorithm** ($O(E \log V)$). Built a **Weighted Graph** routing engine. Solved Interval Scheduling. | [View Code](./Day-14) |
+| **15** | **Backtracking** | Built a **Sudoku Solver**. Mastered the **Backtracking Template** (`choose` $\rightarrow$ `explore` $\rightarrow$ `un-choose`) and State Space Tree pruning. | [View Code](./Day-15) |
 
 ---
 
@@ -96,9 +97,14 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **DSA:** String Algorithms (LeetCode #208 Implement Trie, #1143 Longest Common Subsequence, #72 Edit Distance).
 
 ### **Day 14: Greedy Algorithms & Weighted Graphs**
-*   **Theory:** The Greedy Choice Property. Dijkstra's Algorithm (Priority Queue) vs. BFS. Minimum Spanning Trees (Prim's & Kruskal's).
+*   **Theory:** The Greedy Choice Property. Dijkstra's Algorithm (Priority Queue) vs. BFS.
 *   **Lab:** `dijkstra_lab.py` - Built a GPS routing engine using Dijkstra's algorithm to find the shortest path in a weighted traffic network.
-*   **DSA:** Weighted Graphs (LeetCode #743 Network Delay Time, #485 Non-overlapping Intervals, #787 Cheapest Flights Within K Stops).
+*   **DSA:** Weighted Graphs & Greedy (LeetCode #743 Network Delay Time, #787 Cheapest Flights Within K Stops, #435 Non-overlapping Intervals).
+
+### **Day 15: Backtracking & Constraint Satisfaction**
+*   **Theory:** State Space Trees and DFS. Constraint Satisfaction Problems (CSPs) in AI. The "Choose $\rightarrow$ Explore $\rightarrow$ Un-choose" template.
+*   **Lab:** `sudoku_solver.py` - Implemented a backtracking algorithm to solve 9x9 Sudoku puzzles by pruning invalid branches.
+*   **DSA:** Backtracking (LeetCode #46 Permutations, #78 Subsets, #51 N-Queens).
 
 ---
 
