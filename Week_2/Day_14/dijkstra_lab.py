@@ -76,10 +76,14 @@ if __name__ == "__main__":
     city_map = WeightedGraph()
     # Edges: (Source, Destination, Minutes of Traffic)
     edges = [
-        ('Home', 'A', 5), ('Home', 'B', 2),
-        ('A', 'C', 4), ('A', 'B', 8),
-        ('B', 'A', 8), ('B', 'D', 7),
-        ('C', 'D', 6), ('C', 'Office', 3),
+        ('Home', 'A', 5),
+        ('Home', 'B', 2),
+        ('A', 'C', 4),
+        ('A', 'B', 8),
+        ('B', 'A', 8), 
+        ('B', 'D', 7),
+        ('C', 'D', 6), 
+        ('C', 'Office', 3),
         ('D', 'Office', 1)
     ]
     

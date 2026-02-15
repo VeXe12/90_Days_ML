@@ -98,7 +98,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 ### **Day 14: Greedy Algorithms & Weighted Graphs**
 *   **Theory:** The Greedy Choice Property. Dijkstra's Algorithm (Priority Queue) vs. BFS. Minimum Spanning Trees (Prim's & Kruskal's).
 *   **Lab:** `dijkstra_lab.py` - Built a GPS routing engine using Dijkstra's algorithm to find the shortest path in a weighted traffic network.
-*   **DSA:** Weighted Graphs (LeetCode #743 Network Delay Time, #1584 Min Cost to Connect All Points, #787 Cheapest Flights Within K Stops).
+*   **DSA:** Weighted Graphs (LeetCode #743 Network Delay Time, #485 Min Cost to Connect All Points, #787 Cheapest Flights Within K Stops).
 
 ---
 
