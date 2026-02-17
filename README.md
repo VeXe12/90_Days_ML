@@ -27,6 +27,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **14** | **Greedy Algorithms** | Implemented **Dijkstra's Algorithm** ($O(E \log V)$). Built a **Weighted Graph** routing engine. Solved Interval Scheduling. | [View Code](./Day-14) |
 | **15** | **Backtracking** | Built a **Sudoku Solver**. Mastered the **Backtracking Template** (`choose` $\rightarrow$ `explore` $\rightarrow$ `un-choose`) and State Space Tree pruning. | [View Code](./Day-15) |
 | **16** | **Range Queries** | Built a **Segment Tree** for mutable arrays. Optimized range sum queries from $O(N)$ to $O(\log N)$. Studied **Fenwick Trees**. | [View Code](./Day-16) |
+| **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
 
 ---
 
@@ -108,9 +109,14 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **DSA:** Backtracking (LeetCode #46 Permutations, #78 Subsets, #51 N-Queens).
 
 ### **Day 16: Range Queries & Segment Trees**
-*   **Theory:** Handling mutable data efficiently. **Segment Trees** allow range sum queries and element updates in $O(\log N)$ time, whereas Prefix Sums require $O(N)$ for updates [2]. Studied **Fenwick Trees** (Binary Indexed Trees) which use bit manipulation to achieve similar performance with less memory [1].
+*   **Theory:** Handling mutable data efficiently. **Segment Trees** allow range sum queries and element updates in $O(\log N)$ time, whereas Prefix Sums require $O(N)$ for updates. Studied **Fenwick Trees** (Binary Indexed Trees) which use bit manipulation to achieve similar performance with less memory.
 *   **Lab:** `segment_tree.py` - Built a Segment Tree class from scratch. Implemented recursive `build`, `update`, and `query` methods to manage a dynamic sales dataset.
 *   **DSA:** Range Queries (LeetCode #307 Range Sum Query - Mutable, #315 Count of Smaller Numbers After Self, #308 Range Sum Query 2D).
+
+### **Day 17: Bit Manipulation**
+*   **Theory:** Binary representation, Two's Complement, and Bitmasks. The "Magic" of XOR and using `n & (n-1)` to clear the lowest set bit.
+*   **Lab:** `bit_utils.py` - Implemented a `BitManipulator` class with methods for parity checks, bit toggling, and isolating the lowest set bit (core logic of Fenwick Trees).
+*   **DSA:** Bitwise Logic (LeetCode #136 Single Number, #191 Number of 1 Bits, #338 Counting Bits).
 
 ---
 
