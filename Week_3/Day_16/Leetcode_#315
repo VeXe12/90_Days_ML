@@ -1,0 +1,31 @@
+class Fenwick:
+    def __init__(self, n):
+        self.n = n
+        self.tree = [0] * (n + 1)
+
+    def update(self, i, delta):
+        while i <= self.n:
+            self.tree[i] += delta
+            i += i & -i
+
+    def query(self, i):
+        s = 0
+        while i > 0:
+            s += self.tree[i]
+            i -= i & -i
+        return s
+
+class Solution:
+    def countSmaller(self, nums: List[int]) -> List[int]:
+        sorted_unique = sorted(set(nums))
+        rank = {num: i+1 for i, num in enumerate(sorted_unique)}
+        
+        fenwick = Fenwick(len(sorted_unique))
+        result = []
+        for num in reversed(nums):
+            r = rank[num]
+            result.append(fenwick.query(r - 1))
+            fenwick.update(r, 1)
+
+        return result[::-1]
+        
