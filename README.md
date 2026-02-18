@@ -28,6 +28,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **15** | **Backtracking** | Built a **Sudoku Solver**. Mastered the **Backtracking Template** (`choose` $\rightarrow$ `explore` $\rightarrow$ `un-choose`) and State Space Tree pruning. | [View Code](./Day-15) |
 | **16** | **Range Queries** | Built a **Segment Tree** for mutable arrays. Optimized range sum queries from $O(N)$ to $O(\log N)$. Studied **Fenwick Trees**. | [View Code](./Day-16) |
 | **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `\|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
+| **18** | **Probability & Stats** | Simulated **Law of Large Numbers**. Implemented **Bayes' Theorem** calculator. Mastered nuances of False Positives. | [View Code](./Day-18) |
 
 ---
 
@@ -118,12 +119,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `bit_utils.py` - Implemented a `BitManipulator` class with methods for parity checks, bit toggling, and isolating the lowest set bit (core logic of Fenwick Trees).
 *   **DSA:** Bitwise Logic (LeetCode #136 Single Number, #191 Number of 1 Bits, #338 Counting Bits).
 
+### **Day 18: Probability & Statistics (The Engine of ML)**
+*   **Theory:** Random Variables, Distributions (Normal, Binomial), and the **Law of Large Numbers**. The math behind **Naive Bayes** and updating beliefs with evidence.
+*   **Lab:** `probability_basics.py` - Simulated convergence of random events ($N=100k$) and built a **Bayes' Theorem Calculator** to solve medical diagnostic problems (False Positives).
+*   **DSA:** Number Theory & Math (LeetCode #258 Add Digits, #202 Happy Number, #172 Factorial Trailing Zeroes).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`
 
 ---
 
