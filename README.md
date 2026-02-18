@@ -27,7 +27,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **14** | **Greedy Algorithms** | Implemented **Dijkstra's Algorithm** ($O(E \log V)$). Built a **Weighted Graph** routing engine. Solved Interval Scheduling. | [View Code](./Day-14) |
 | **15** | **Backtracking** | Built a **Sudoku Solver**. Mastered the **Backtracking Template** (`choose` $\rightarrow$ `explore` $\rightarrow$ `un-choose`) and State Space Tree pruning. | [View Code](./Day-15) |
 | **16** | **Range Queries** | Built a **Segment Tree** for mutable arrays. Optimized range sum queries from $O(N)$ to $O(\log N)$. Studied **Fenwick Trees**. | [View Code](./Day-16) |
-| **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
+| **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `\|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
 
 ---
 
