@@ -1,0 +1,14 @@
+class Solution:
+    def isHappy(self, n: int) -> bool:
+
+        while n != 1 and n != 4:
+            n = str(n)
+            s = 0
+            for i in n:
+                s += int(i) * int(i)
+            n = s
+
+        if n == 1:
+            return True
+        else:
+            return False
