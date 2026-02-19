@@ -29,6 +29,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **16** | **Range Queries** | Built a **Segment Tree** for mutable arrays. Optimized range sum queries from $O(N)$ to $O(\log N)$. Studied **Fenwick Trees**. | [View Code](./Day-16) |
 | **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `\|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
 | **18** | **Probability & Stats** | Simulated **Law of Large Numbers**. Implemented **Bayes' Theorem** calculator. Mastered nuances of False Positives. | [View Code](./Day-18) |
+| **19** | **Naive Bayes & Distributions** | Built a **Text Classifier** from scratch using MLE and **Laplace Smoothing**. Solved statistical array problems. | [View Code](./Day-19) |
 
 ---
 
@@ -123,6 +124,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** Random Variables, Distributions (Normal, Binomial), and the **Law of Large Numbers**. The math behind **Naive Bayes** and updating beliefs with evidence.
 *   **Lab:** `probability_basics.py` - Simulated convergence of random events ($N=100k$) and built a **Bayes' Theorem Calculator** to solve medical diagnostic problems (False Positives).
 *   **DSA:** Number Theory & Math (LeetCode #258 Add Digits, #202 Happy Number, #172 Factorial Trailing Zeroes).
+
+### **Day 19: The Naive Bayes Classifier & Distributions**
+*   **Theory:** The "Naive" conditional independence assumption, Maximum Likelihood Estimation (MLE), and Probability Distributions (Gaussian). Understood **Laplace Smoothing** and Log-Likelihoods to prevent numerical underflow.
+*   **Lab:** `naive_bayes_scratch.py` - Built a text classifier from scratch without ML libraries to categorize headlines (Sports vs. Politics).
+*   **DSA:** Statistics & Products (LeetCode #169 Majority Element, #238 Product of Array Except Self, #628 Maximum Product of Three Numbers).
 
 ---
 
