@@ -1,0 +1,18 @@
+class Solution:
+    def fact(self, n):
+        if n < 2:
+            return 1
+        n = n * (self.fact(n - 1))        
+        return n
+    
+    def trailingZeroes(self, n: int) -> int:
+        sys.set_int_max_str_digits(10000000)
+        fact_n = self.fact(n)
+        fact_n = str(fact_n)
+        zeros = 0
+        for i in fact_n:
+            if i == "0":
+                zeros += 1
+            else:
+                zeros = 0    
+        return zeros        
