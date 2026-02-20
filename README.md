@@ -30,6 +30,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **17** | **Bit Manipulation** | Mastered bitwise operators (`&`, `\|`, `^`, `<<`). Implemented **Brian Kernighan’s Algorithm** and **XOR Swap**. | [View Code](./Day-17) |
 | **18** | **Probability & Stats** | Simulated **Law of Large Numbers**. Implemented **Bayes' Theorem** calculator. Mastered nuances of False Positives. | [View Code](./Day-18) |
 | **19** | **Naive Bayes & Distributions** | Built a **Text Classifier** from scratch using MLE and **Laplace Smoothing**. Solved statistical array problems. | [View Code](./Day-19) |
+| **20** | **Markov Chains & N-Grams** | Started **Project A (Autocomplete Engine)** using a **Trie** and **Bigram** transition probabilities. | [View Code](./Project_A_Autocomplete) |
 
 ---
 
@@ -129,6 +130,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** The "Naive" conditional independence assumption, Maximum Likelihood Estimation (MLE), and Probability Distributions (Gaussian). Understood **Laplace Smoothing** and Log-Likelihoods to prevent numerical underflow.
 *   **Lab:** `naive_bayes_scratch.py` - Built a text classifier from scratch without ML libraries to categorize headlines (Sports vs. Politics).
 *   **DSA:** Statistics & Products (LeetCode #169 Majority Element, #238 Product of Array Except Self, #628 Maximum Product of Three Numbers).
+
+### **Day 20: Markov Chains & N-Gram Models**
+*   **Theory:** Sequence modeling over time, the **Markov Assumption**, the Chain Rule of Probability, and Transition Matrices. 
+*   **Lab:** `autocomplete_engine.py` - Began **Project A**. Built an Autocomplete Engine combining a **Trie** ($O(L)$ lookup speed) with a **Bigram Model** (MLE probabilities) to dynamically predict and rank the next word in a sequence. 
+*   **DSA:** Tries & Prefix Trees (LeetCode #208 Implement Trie, #14 Longest Common Prefix, #211 Design Add and Search Words Data Structure).
 
 ---
 
