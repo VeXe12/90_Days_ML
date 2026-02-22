@@ -31,6 +31,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **18** | **Probability & Stats** | Simulated **Law of Large Numbers**. Implemented **Bayes' Theorem** calculator. Mastered nuances of False Positives. | [View Code](./Day-18) |
 | **19** | **Naive Bayes & Distributions** | Built a **Text Classifier** from scratch using MLE and **Laplace Smoothing**. Solved statistical array problems. | [View Code](./Day-19) |
 | **20** | **Markov Chains & N-Grams** | Started **Project A (Autocomplete Engine)** using a **Trie** and **Bigram** transition probabilities. | [View Code](./Project_A_Autocomplete) |
+| **21** | **HMMs & Decision Theory** | Completed **Project A**. Built a CLI agent applying **Maximum Expected Utility**. Modeled Viterbi paths. | [View Code](./Project_A_Autocomplete) |
 
 ---
 
@@ -134,7 +135,12 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 ### **Day 20: Markov Chains & N-Gram Models**
 *   **Theory:** Sequence modeling over time, the **Markov Assumption**, the Chain Rule of Probability, and Transition Matrices. 
 *   **Lab:** `autocomplete_engine.py` - Began **Project A**. Built an Autocomplete Engine combining a **Trie** ($O(L)$ lookup speed) with a **Bigram Model** (MLE probabilities) to dynamically predict and rank the next word in a sequence. 
-*   **DSA:** Tries & Prefix Trees (LeetCode #208 Implement Trie, #14 Longest Common Prefix, #211 Design Add and Search Words Data Structure).
+*   **DSA:** Tries & Prefix Trees (LeetCode #208 Implement Trie, #14 Longest Common Prefix).
+
+### **Day 21: Hidden Markov Models (HMMs) & Decision Theory**
+*   **Theory:** State vs. Evidence variables. Filtering, Smoothing, and the **Viterbi Algorithm**. Understood the **Maximum Expected Utility (MEU)** principle.
+*   **Lab:** `cli_app.py` - Completed **Project A**. Wrapped the Autocomplete Engine in a continuous Command Line Interface (CLI) loop that acts as a decision agent.
+*   **DSA:** DP & Pathfinding (LeetCode #64 Minimum Path Sum, #139 Word Break).
 
 ---
 
