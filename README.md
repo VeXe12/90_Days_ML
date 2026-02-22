@@ -32,6 +32,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **19** | **Naive Bayes & Distributions** | Built a **Text Classifier** from scratch using MLE and **Laplace Smoothing**. Solved statistical array problems. | [View Code](./Day-19) |
 | **20** | **Markov Chains & N-Grams** | Started **Project A (Autocomplete Engine)** using a **Trie** and **Bigram** transition probabilities. | [View Code](./Project_A_Autocomplete) |
 | **21** | **HMMs & Decision Theory** | Completed **Project A**. Built a CLI agent applying **Maximum Expected Utility**. Modeled Viterbi paths. | [View Code](./Project_A_Autocomplete) |
+| **22** | **ML Workflow & Feature Engineering** | Built a Scikit-Learn **Pipeline** to handle missing data, scale numerical features, and One-Hot Encode categorical text. | [View Code](./Day-22) |
 
 ---
 
@@ -142,12 +143,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `cli_app.py` - Completed **Project A**. Wrapped the Autocomplete Engine in a continuous Command Line Interface (CLI) loop that acts as a decision agent.
 *   **DSA:** DP & Pathfinding (LeetCode #64 Minimum Path Sum, #139 Word Break).
 
+### **Day 22: The ML Workflow & Feature Engineering**
+*   **Theory:** The 8-Step ML Workflow and Data Preprocessing. Handling missing values (imputation), categorical encoding (One-Hot), and Feature Scaling (Standardization). Preventing Data Leakage.
+*   **Lab:** `data_pipeline.py` - Built a robust data preprocessing pipeline using Pandas and Scikit-Learn's `ColumnTransformer`, `Pipeline`, `SimpleImputer`, and `StandardScaler`.
+*   **DSA:** Pandas & Data Engineering (LeetCode #2887 Fill Missing Data, #2882 Drop Duplicate Rows, #73 Set Matrix Zeroes).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`
 
 ---
 
