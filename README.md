@@ -32,7 +32,8 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **19** | **Naive Bayes & Distributions** | Built a **Text Classifier** from scratch using MLE and **Laplace Smoothing**. Solved statistical array problems. | [View Code](./Day-19) |
 | **20** | **Markov Chains & N-Grams** | Started **Project A (Autocomplete Engine)** using a **Trie** and **Bigram** transition probabilities. | [View Code](./Project_A_Autocomplete) |
 | **21** | **HMMs & Decision Theory** | Completed **Project A**. Built a CLI agent applying **Maximum Expected Utility**. Modeled Viterbi paths. | [View Code](./Project_A_Autocomplete) |
-| **22** | **ML Workflow & Feature Engineering** | Built a Scikit-Learn **Pipeline** to handle missing data, scale numerical features, and One-Hot Encode categorical text. | [View Code](./Day-22) |
+| **22** | **ML Workflow & Feature Engineering** | Built a Scikit-Learn **Pipeline** to handle missing data, scale features, and One-Hot Encode categorical text. | [View Code](./Day-22) |
+| **23** | **Linear Regression & Stats** | Built an **OLS** Multiple Linear Regression model. Evaluated **$R^2$**, **F-statistic**, and **p-values** to analyze feature synergy. | [View Code](./Day-23) |
 
 ---
 
@@ -75,7 +76,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 
 ### **Day 8: Linked Lists & Pointers**
 *   **Theory:** Non-contiguous memory. Nodes and Pointers as the basis of Computational Graphs.
-*   **Lab:** `linked_list.py` - Implementing a Linked List and the **Fast & Slow Pointer** technique.
+*   **Lab:** `linked_list.py` - Implementing a Singly Linked List and the **Fast & Slow Pointer** technique.
 *   **DSA:** Pointer Manipulation (LeetCode #141 Linked List Cycle, #876 Middle of Linked List, #206 Reverse Linked List).
 
 ### **Day 9: Stacks, Queues & Buffers**
@@ -114,7 +115,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **DSA:** Backtracking (LeetCode #46 Permutations, #78 Subsets, #51 N-Queens).
 
 ### **Day 16: Range Queries & Segment Trees**
-*   **Theory:** Handling mutable data efficiently. **Segment Trees** allow range sum queries and element updates in $O(\log N)$ time, whereas Prefix Sums require $O(N)$ for updates. Studied **Fenwick Trees** (Binary Indexed Trees) which use bit manipulation to achieve similar performance with less memory.
+*   **Theory:** Handling mutable data efficiently. **Segment Trees** allow range sum queries and element updates in $O(\log N)$ time, whereas Prefix Sums require $O(N)$ for updates. Studied **Fenwick Trees** (Binary Indexed Trees).
 *   **Lab:** `segment_tree.py` - Built a Segment Tree class from scratch. Implemented recursive `build`, `update`, and `query` methods to manage a dynamic sales dataset.
 *   **DSA:** Range Queries (LeetCode #307 Range Sum Query - Mutable, #315 Count of Smaller Numbers After Self, #308 Range Sum Query 2D).
 
@@ -148,12 +149,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `data_pipeline.py` - Built a robust data preprocessing pipeline using Pandas and Scikit-Learn's `ColumnTransformer`, `Pipeline`, `SimpleImputer`, and `StandardScaler`.
 *   **DSA:** Pandas & Data Engineering (LeetCode #2887 Fill Missing Data, #2882 Drop Duplicate Rows, #73 Set Matrix Zeroes).
 
+### **Day 23: Linear Regression & Statistical Analysis**
+*   **Theory:** Simple & Multiple Linear Regression, Residual Sum of Squares (RSS), $R^2$ Statistic, F-Statistic, P-Values, and Interaction Terms (Synergy).
+*   **Lab:** `linear_regression.py` - Generated synthetic advertising data and fit an **Ordinary Least Squares (OLS)** model using `statsmodels` to analyze the mathematical relationships between features.
+*   **DSA:** Pandas Data Engineering (LeetCode #2880 Select Data, #2883 Drop Missing Data).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`
 
 ---
 
