@@ -1,0 +1,20 @@
+class Solution:
+    def setZeroes(self, grid: list[list[int]]) -> None:
+        """
+        Do not return anything, modify grid in-place instead.
+        """
+        row = len(grid)
+        col = len(grid[0])
+        rows_to_destroy = set()
+        cols_to_destroy = set()
+
+        for r in range(row):
+            for c in range(col):
+                if grid[r][c] == 0:
+                    rows_to_destroy.add(r)
+                    cols_to_destroy.add(c)
+        
+        for r in range(row):
+            for c in range(col):
+                if r in rows_to_destroy or c in cols_to_destroy:
+                    grid[r][c] = 0
