@@ -34,6 +34,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **21** | **HMMs & Decision Theory** | Completed **Project A**. Built a CLI agent applying **Maximum Expected Utility**. Modeled Viterbi paths. | [View Code](./Project_A_Autocomplete) |
 | **22** | **ML Workflow & Feature Engineering** | Built a Scikit-Learn **Pipeline** to handle missing data, scale features, and One-Hot Encode categorical text. | [View Code](./Day-22) |
 | **23** | **Linear Regression & Stats** | Built an **OLS** Multiple Linear Regression model. Evaluated **$R^2$**, **F-statistic**, and **p-values** to analyze feature synergy. | [View Code](./Day-23) |
+| **24** | **Logistic Regression & Classification** | Built a **Logistic Regression** classifier using Scikit-Learn to predict credit card defaults. Evaluated using a **Confusion Matrix**. | [View Code](./Day-24) |
 
 ---
 
@@ -153,6 +154,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** Simple & Multiple Linear Regression, Residual Sum of Squares (RSS), $R^2$ Statistic, F-Statistic, P-Values, and Interaction Terms (Synergy).
 *   **Lab:** `linear_regression.py` - Generated synthetic advertising data and fit an **Ordinary Least Squares (OLS)** model using `statsmodels` to analyze the mathematical relationships between features.
 *   **DSA:** Pandas Data Engineering (LeetCode #2880 Select Data, #2883 Drop Missing Data).
+
+### **Day 24: Logistic Regression & Classification**
+*   **Theory:** The Classification Problem, Logistic Function (Sigmoid), Odds vs. Probability, Log-Odds, and Maximum Likelihood Estimation (MLE).
+*   **Lab:** `logistic_regression.py` - Built a binary classifier using Scikit-Learn to predict credit card defaults. Evaluated model performance using `predict_proba` and a `confusion_matrix`.
+*   **DSA:** Pandas Data Engineering (LeetCode #2884 Modify Columns, #2885 Rename Columns, #2886 Change Data Type).
 
 ---
 
