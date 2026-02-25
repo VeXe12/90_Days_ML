@@ -35,6 +35,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **22** | **ML Workflow & Feature Engineering** | Built a Scikit-Learn **Pipeline** to handle missing data, scale features, and One-Hot Encode categorical text. | [View Code](./Day-22) |
 | **23** | **Linear Regression & Stats** | Built an **OLS** Multiple Linear Regression model. Evaluated **$R^2$**, **F-statistic**, and **p-values** to analyze feature synergy. | [View Code](./Day-23) |
 | **24** | **Logistic Regression & Classification** | Built a **Logistic Regression** classifier using Scikit-Learn to predict credit card defaults. Evaluated using a **Confusion Matrix**. | [View Code](./Day-24) |
+| **25** | **Generative Classification Models** | Built **LDA**, **QDA**, and **Naive Bayes** classifiers. Explored Generative vs Discriminative approaches and Bayes' Theorem. | [View Code](./Day-25) |
 
 ---
 
@@ -159,6 +160,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** The Classification Problem, Logistic Function (Sigmoid), Odds vs. Probability, Log-Odds, and Maximum Likelihood Estimation (MLE).
 *   **Lab:** `logistic_regression.py` - Built a binary classifier using Scikit-Learn to predict credit card defaults. Evaluated model performance using `predict_proba` and a `confusion_matrix`.
 *   **DSA:** Pandas Data Engineering (LeetCode #2884 Modify Columns, #2885 Rename Columns, #2886 Change Data Type).
+
+### **Day 25: Generative Classification Models**
+*   **Theory:** Generative vs Discriminative models, Bayes' Theorem, Linear Discriminant Analysis (LDA) and shared variance, Quadratic Discriminant Analysis (QDA), and the conditional independence assumption of Naive Bayes.
+*   **Lab:** `generative_models.py` - Built and compared LDA, QDA, and Gaussian Naive Bayes classifiers on a synthetic medical dataset with varying class variances.
+*   **DSA:** Pandas Data Engineering (LeetCode #2888 Reshape Data: Concatenate, #2889 Reshape Data: Pivot, #2890 Reshape Data: Melt).
 
 ---
 
