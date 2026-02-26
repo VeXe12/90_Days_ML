@@ -36,6 +36,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **23** | **Linear Regression & Stats** | Built an **OLS** Multiple Linear Regression model. Evaluated **$R^2$**, **F-statistic**, and **p-values** to analyze feature synergy. | [View Code](./Day-23) |
 | **24** | **Logistic Regression & Classification** | Built a **Logistic Regression** classifier using Scikit-Learn to predict credit card defaults. Evaluated using a **Confusion Matrix**. | [View Code](./Day-24) |
 | **25** | **Generative Classification Models** | Built **LDA**, **QDA**, and **Naive Bayes** classifiers. Explored Generative vs Discriminative approaches and Bayes' Theorem. | [View Code](./Day-25) |
+| **26** | **Resampling Methods & CV** | Implemented **$K$-Fold Cross-Validation** and the **Bootstrap** to rigorously evaluate models and calculate parameter uncertainty. | [View Code](./Day-26) |
 
 ---
 
@@ -165,6 +166,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** Generative vs Discriminative models, Bayes' Theorem, Linear Discriminant Analysis (LDA) and shared variance, Quadratic Discriminant Analysis (QDA), and the conditional independence assumption of Naive Bayes.
 *   **Lab:** `generative_models.py` - Built and compared LDA, QDA, and Gaussian Naive Bayes classifiers on a synthetic medical dataset with varying class variances.
 *   **DSA:** Pandas Data Engineering (LeetCode #2888 Reshape Data: Concatenate, #2889 Reshape Data: Pivot, #2890 Reshape Data: Melt).
+
+### **Day 26: Resampling Methods & Cross-Validation**
+*   **Theory:** The flaws of the Validation Set approach. **$K$-Fold Cross-Validation**, Leave-One-Out Cross-Validation (LOOCV), Bias-Variance Trade-off in CV, and using the **Bootstrap** to mathematically estimate standard error/uncertainty.
+*   **Lab:** `resampling_methods.py` - Evaluated linear vs. quadratic models using Scikit-Learn's `KFold` and `cross_val_score`. Implemented a Bootstrap loop from scratch (`np.random.choice(replace=True)`).
+*   **DSA:** Pandas Data Engineering (LeetCode #2891 Method Chaining, #2877 Create a DataFrame from List, #2878 Get the Size of a DataFrame).
 
 ---
 
