@@ -37,6 +37,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **24** | **Logistic Regression & Classification** | Built a **Logistic Regression** classifier using Scikit-Learn to predict credit card defaults. Evaluated using a **Confusion Matrix**. | [View Code](./Day-24) |
 | **25** | **Generative Classification Models** | Built **LDA**, **QDA**, and **Naive Bayes** classifiers. Explored Generative vs Discriminative approaches and Bayes' Theorem. | [View Code](./Day-25) |
 | **26** | **Resampling Methods & CV** | Implemented **$K$-Fold Cross-Validation** and the **Bootstrap** to rigorously evaluate models and calculate parameter uncertainty. | [View Code](./Day-26) |
+| **27** | **Moving Beyond Linearity** | Engineered non-linear features using **Polynomials**, **Step Functions**, and **Splines** to capture complex relationships. | [View Code](./Day-27) |
 
 ---
 
@@ -172,12 +173,18 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `resampling_methods.py` - Evaluated linear vs. quadratic models using Scikit-Learn's `KFold` and `cross_val_score`. Implemented a Bootstrap loop from scratch (`np.random.choice(replace=True)`).
 *   **DSA:** Pandas Data Engineering (LeetCode #2891 Method Chaining, #2877 Create a DataFrame from List, #2878 Get the Size of a DataFrame).
 
+### **Day 27: Moving Beyond Linearity**
+*   **Theory:** The Limits of Linearity, Basis Functions, Polynomial Regression, Step Functions, Regression Splines, Natural Cubic Splines, and Smoothing Splines.
+*   **Lab:** `non_linear_features.py` - Simulated a non-linear dataset (Wage vs. Age) and engineered features using Scikit-Learn's `PolynomialFeatures` and `SplineTransformer`, alongside Pandas `pd.cut()` for step functions. Visualized the resulting model fits.
+*   **DSA:** Pandas & Math Logic (LeetCode #2879 Display the First Three Rows, #2881 Create a New Column, #2894 Divisible and Non-divisible Sums Difference).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`, `matplotlib`
+
 
 ---
 
