@@ -38,6 +38,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **25** | **Generative Classification Models** | Built **LDA**, **QDA**, and **Naive Bayes** classifiers. Explored Generative vs Discriminative approaches and Bayes' Theorem. | [View Code](./Day-25) |
 | **26** | **Resampling Methods & CV** | Implemented **$K$-Fold Cross-Validation** and the **Bootstrap** to rigorously evaluate models and calculate parameter uncertainty. | [View Code](./Day-26) |
 | **27** | **Moving Beyond Linearity** | Engineered non-linear features using **Polynomials**, **Step Functions**, and **Splines** to capture complex relationships. | [View Code](./Day-27) |
+| **28** | **Generalized Additive Models** | Built a **GAM** combining Splines, Linear, and Step functions. Analyzed **Partial Dependence Plots (PDPs)** to isolate feature effects. | [View Code](./Day-28) |
 
 ---
 
@@ -178,13 +179,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `non_linear_features.py` - Simulated a non-linear dataset (Wage vs. Age) and engineered features using Scikit-Learn's `PolynomialFeatures` and `SplineTransformer`, alongside Pandas `pd.cut()` for step functions. Visualized the resulting model fits.
 *   **DSA:** Pandas & Math Logic (LeetCode #2879 Display the First Three Rows, #2881 Create a New Column, #2894 Divisible and Non-divisible Sums Difference).
 
+### **Day 28: Generalized Additive Models (GAMs)**
+*   **Theory:** Mixing linear and non-linear functions ($f(X)$), the Additive Property, highly interpretable machine learning, and evaluating with ANOVA.
+*   **Lab:** `gam_engine.py` - Built a `LinearGAM` using `pygam` to predict Wage based on Age (Spline), Year (Linear), and Education (Factor). Visualized isolated effects with Partial Dependence Plots (PDPs).
+*   **DSA:** Arrays & Math (LeetCode #1 Two Sum, #1945 Sum of Digits of String After Convert, #1834 Single-Threaded CPU).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`, `matplotlib`
-
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`, `matplotlib`, `pygam`
 
 ---
 
