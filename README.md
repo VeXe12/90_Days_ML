@@ -39,6 +39,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **26** | **Resampling Methods & CV** | Implemented **$K$-Fold Cross-Validation** and the **Bootstrap** to rigorously evaluate models and calculate parameter uncertainty. | [View Code](./Day-26) |
 | **27** | **Moving Beyond Linearity** | Engineered non-linear features using **Polynomials**, **Step Functions**, and **Splines** to capture complex relationships. | [View Code](./Day-27) |
 | **28** | **Generalized Additive Models** | Built a **GAM** combining Splines, Linear, and Step functions. Analyzed **Partial Dependence Plots (PDPs)** to isolate feature effects. | [View Code](./Day-28) |
+| **29** | **Support Vector Machines (SVMs)** | Mastered Maximal Margins, Soft Margins, and the **Kernel Trick** (Linear, RBF) to classify highly non-linear data. | [View Code](./Day-29) |
 
 ---
 
@@ -183,6 +184,11 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Theory:** Mixing linear and non-linear functions ($f(X)$), the Additive Property, highly interpretable machine learning, and evaluating with ANOVA.
 *   **Lab:** `gam_engine.py` - Built a `LinearGAM` using `pygam` to predict Wage based on Age (Spline), Year (Linear), and Education (Factor). Visualized isolated effects with Partial Dependence Plots (PDPs).
 *   **DSA:** Arrays & Math (LeetCode #1 Two Sum, #1945 Sum of Digits of String After Convert, #1834 Single-Threaded CPU).
+
+### **Day 29: Support Vector Machines & The Kernel Trick**
+*   **Theory:** The Maximal Margin Classifier, Support Vectors, Soft Margins, and extending models to non-linear spaces using the **Kernel Trick** (Linear, Polynomial, and RBF Kernels). Multiclass extensions using OvO and OvR.
+*   **Lab:** `svm_engine.py` - Generated a synthetic non-linear "bullseye" dataset. Fit and visualized SVMs comparing a failing Linear Kernel, an optimal RBF Kernel, and a massively overfit RBF Kernel (high $\gamma$).
+*   **DSA:** Pointers & Sliding Window (LeetCode #1984 Minimum Difference Between Highest and Lowest of K Scores, #2095 Delete the Middle Node of a Linked List, #2958 Length of Longest Subarray With at Most K Frequency).
 
 ---
 
