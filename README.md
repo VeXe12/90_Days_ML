@@ -40,6 +40,7 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 | **27** | **Moving Beyond Linearity** | Engineered non-linear features using **Polynomials**, **Step Functions**, and **Splines** to capture complex relationships. | [View Code](./Day-27) |
 | **28** | **Generalized Additive Models** | Built a **GAM** combining Splines, Linear, and Step functions. Analyzed **Partial Dependence Plots (PDPs)** to isolate feature effects. | [View Code](./Day-28) |
 | **29** | **Support Vector Machines (SVMs)** | Mastered Maximal Margins, Soft Margins, and the **Kernel Trick** (Linear, RBF) to classify highly non-linear data. | [View Code](./Day-29) |
+| **30** | **Unsupervised Learning & PCA** | Implemented **PCA** for dimensionality reduction (50D to 2D) and built a **Dendrogram** using **Hierarchical Clustering**. | [View Code](./Day-30) |
 
 ---
 
@@ -190,12 +191,17 @@ This repository documents my daily progress, code labs, and algorithmic challeng
 *   **Lab:** `svm_engine.py` - Generated a synthetic non-linear "bullseye" dataset. Fit and visualized SVMs comparing a failing Linear Kernel, an optimal RBF Kernel, and a massively overfit RBF Kernel (high $\gamma$).
 *   **DSA:** Pointers & Sliding Window (LeetCode #1984 Minimum Difference Between Highest and Lowest of K Scores, #2095 Delete the Middle Node of a Linked List, #2958 Length of Longest Subarray With at Most K Frequency).
 
+### **Day 30: Unsupervised Learning & PCA**
+*   **Theory:** Principal Component Analysis (PCA) for dimensionality reduction, Hierarchical Clustering (Linkage, Distance metrics), Dendrograms, and Matrix Completion.
+*   **Lab:** `unsupervised_engine.py` - Generated synthetic 50D data, compressed it to 2D using Scikit-Learn's `PCA`, and visualized bottom-up clustering using SciPy's `dendrogram`.
+*   **DSA:** Greedy & Search Algorithms (LeetCode #704 Binary Search, #322 Coin Change, #435 Non-overlapping Intervals).
+
 ---
 
 ## 🛠️ Tech Stack
 *   **Language:** Python 3.13.2
 *   **Tools:** VS Code, Git, LeetCode
-*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`, `matplotlib`, `pygam`
+*   **Libraries:** `sys`, `time`, `collections`, `heapq`, `math`, `random`, `pandas`, `scikit-learn`, `statsmodels`, `matplotlib`, `pygam`, `scipy`
 
 ---
 
