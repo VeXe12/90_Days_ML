@@ -1,0 +1,28 @@
+class Solution:
+    def getOrder(self, tasks: List[List[int]]) -> List[int]:
+        n = len(tasks)
+       
+        indexed_tasks = [(tasks[i][0], tasks[i][1], i) for i in range(n)]
+        
+        
+        indexed_tasks.sort()
+        
+        result = []
+        heap = []
+        time = 0
+        i = 0
+        
+        while i < n or heap:
+            if not heap and time < indexed_tasks[i][0]:
+                time = indexed_tasks[i][0]
+            
+            while i < n and indexed_tasks[i][0] <= time:
+                enqueue, processing, index = indexed_tasks[i]
+                heapq.heappush(heap, (processing, index))
+                i += 1
+            
+            processing, index = heapq.heappop(heap)
+            time += processing
+            result.append(index)
+        
+        return result
