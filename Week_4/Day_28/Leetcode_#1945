@@ -1,0 +1,14 @@
+class Solution:
+    def getLucky(self, s: str, k: int) -> int:
+        alpha_values = {letter: value for value, letter in enumerate(string.ascii_lowercase, start = 1)}
+        num = ''
+        for ch in s:
+            ch = alpha_values[ch]
+            num += str(ch)
+        while k > 0:
+            result = 0
+            for digit in num:
+                result += int(digit)
+            num = str(result)
+            k -= 1        
+        return result    
