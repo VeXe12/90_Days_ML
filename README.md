@@ -1,5 +1,7 @@
 # 90 Days of Machine Learning Engineering 🚀
 
+A rigorous, day-by-day implementation of Machine Learning algorithms from first principles (Math, Memory, and Time Complexity), alongside daily DSA problem-solving.
+
 **Goal:** Master the fundamentals of Machine Learning Engineering, starting from Python internals and Data Structures to Advanced Deep Learning.
 **Status:** In Progress (Started Feb 1, 2025).
 
